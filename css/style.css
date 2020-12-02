@@ -1,0 +1,84 @@
+@import "diagram__list.css";
+@import "diagram__svg.css";
+
+body {
+  font-family: Arial, sans-serif, Gotham Pro;
+}
+
+.container {
+  margin: 0 auto;
+  border: 1px solid;
+  width: 310px;
+  height: 470px;
+}
+
+.diagram__general {
+  position: relative;
+}
+
+.diagram__text {
+  position: absolute;
+  top: 80px;
+  left: 85px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 180px;
+}
+
+.diagram__text span {
+  display: block;
+}
+
+.diagram__percent {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  margin-right: 10px;
+  font-size: 40px;
+}
+
+.diagram__percent-fraction {
+  top: 18px;
+  right: -17px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.diagram__percent-sign {
+  top: 2px;
+  right: -19px;
+  position: absolute;
+  font-size: 18px;
+}
+
+.diagram__title {
+  font-weight: bold;
+  margin: 0;
+  font-size: 22px;
+}
+
+.diagram__discription {
+  margin: 0;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #cdcdcd;
+}
+
+.diagram__assessment {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+
+  color: #fde25e;
+}
+
+/* Флаг */
+
+#diagram__flag {
+  position: absolute;
+  top: 15px;
+  right: 126px;
+}
